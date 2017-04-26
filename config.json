@@ -1,0 +1,36 @@
+{
+    "base": {
+        "date": "01/Arp/2017",
+        "time_range": {
+            "start_at": "00:00:00",
+            "end_at": "23:59:59"
+        }
+    },
+    "logs": [{
+            "count": 2311,
+            "ip_address": "{random_file:ip.txt}",
+            "path": "/users",
+            "method": "POST",
+            "time_range": {
+                "start_at": "00:00:00",
+                "end_at": "23:59:59"
+            },
+            "timedelta": "0900",
+            "body_sent": "{random_int:59,2512}",
+            "user_agent": "{random_file:user_agent.txt}"
+        },
+        {
+            "count": 4232,
+            "ip_address": "{random_file:ip.txt}",
+            "path": "/users/{random_int:1,21231}",
+            "method": "GET",
+            "time_range": {
+                "start_at": "00:00:00",
+                "end_at": "23:59:59"
+            },
+            "timedelta": "0900",
+            "body_sent": "{random_int:59,2512}",
+            "user_agent": "{random_file:user_agent.txt}"
+        }
+    ]
+}
